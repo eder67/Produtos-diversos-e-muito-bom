@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Loja Online do Ederson</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f4f4f4; margin: 0; padding: 0; }
+    header { background: #333; color: white; padding: 20px; text-align: center; }
+    .container { padding: 20px; max-width: 900px; margin: auto; background: white; }
+    .produto { border: 1px solid #ccc; padding: 15px; margin-bottom: 20px; border-radius: 5px; }
+    .formas-pagamento, .contato, .frete { margin-top: 30px; }
+    .mp-button { background-color: #009ee3; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Bem-vindo à Loja do Ederson</h1>
+  <p>Produtos de qualidade com envio rápido!</p>
+</header>
+
+<div class="container">
+  
+  <div class="produto">
+    <h2>Produto Exemplo 1</h2>
+    <p>Descrição do produto. Excelente qualidade e ótimo preço.</p>
+    <strong>R$ 99,90</strong><br><br>
+
+    <!-- Botão Mercado Pago (substituir link pelo seu) -->
+    <a href="https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=SEU_ID_DO_PRODUTO" class="mp-button" target="_blank">
+      Pagar com Mercado Pago
+    </a>
+  </div>
+
+  <div class="formas-pagamento">
+    <h3>Formas de Pagamento</h3>
+    <ul>
+      <li>Pix (via Mercado Pago)</li>
+      <li>Cartão de Crédito</li>
+      <li>Boleto Bancário</li>
+    </ul>
+  </div>
+
+  <div class="frete">
+    <h3>Informações de Frete</h3>
+    <p>Entregamos em todo o Brasil com prazo de até <strong>7 dias úteis</strong>.</p>
+  </div>
+
+  <div class="contato">
+    <h3>Contato</h3>
+    <p>WhatsApp: <a href="https://wa.me/554996637814">54996637814</a></p>
+    <p>Email: <a href="mailto:edersomraquel@gmail.com">edersomraquel@gmail.com</a></p>
+  </div>
+
+</div>
+
+</body>
+</html>
